@@ -26,12 +26,25 @@ class ViewController: UIViewController {
         greenView.alpha = 0.3
         
     }
+    
+   private var tapCount = 1
+    
     @IBAction func startButtonTap() {
         
         startButton.setTitle("NEXT", for: .normal)
         
+        if tapCount % 3 == 1 {
+            greenView.alpha = 0.3
+            redView.alpha = 1
+        } else if tapCount % 3 == 2 {
+            redView.alpha = 0.3
+            yellowView.alpha = 1
+        } else if tapCount % 3 == 0 {
+            yellowView.alpha = 0.3
+            greenView.alpha = 1
+        }
+        tapCount += 1
     }
 }
-
 
 
