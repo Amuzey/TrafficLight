@@ -18,21 +18,21 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c68-iF-mF1">
                                 <rect key="frame" x="139" y="106" width="150" height="150"/>
-                                <color key="backgroundColor" red="0.57653431056701032" green="0.0" blue="0.11279481762849046" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.89628302190721654" green="0.0" blue="0.17535136790056913" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="c68-iF-mF1" secondAttribute="height" multiplier="1:1" id="KNv-ZP-xNv"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VGh-pU-OJ2">
                                 <rect key="frame" x="139" y="306" width="150" height="150"/>
-                                <color key="backgroundColor" red="0.80021746134020622" green="0.65566383477348089" blue="0.00013153899346523965" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.92145215850515472" green="0.78254614345813045" blue="0.17386384122267584" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="VGh-pU-OJ2" secondAttribute="height" multiplier="1:1" id="NDi-fn-cgE"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GdE-gO-16C">
                                 <rect key="frame" x="139" y="506" width="150" height="150"/>
-                                <color key="backgroundColor" red="0.113661328924309" green="0.64088675902061853" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.21480641214262564" green="0.97877738402061853" blue="0.13200986692561237" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="GdE-gO-16C" secondAttribute="height" multiplier="1:1" id="ajA-u2-a8t"/>
                                 </constraints>

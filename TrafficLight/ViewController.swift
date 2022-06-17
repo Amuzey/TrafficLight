@@ -21,13 +21,17 @@ class ViewController: UIViewController {
         yellowView.layer.cornerRadius = yellowView.frame.width / 2
         greenView.layer.cornerRadius = greenView.frame.width / 2
         startButton.layer.cornerRadius = 15
+        redView.alpha = 0.3
+        yellowView.alpha = 0.3
+        greenView.alpha = 0.3
         
     }
-
     @IBAction func startButtonTap() {
+        
         startButton.setTitle("NEXT", for: .normal)
-       
+        
     }
-    
 }
+
+
 
