@@ -17,14 +17,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        redView.layer.cornerRadius = redView.frame.width / 2
-        yellowView.layer.cornerRadius = yellowView.frame.width / 2
-        greenView.layer.cornerRadius = greenView.frame.width / 2
         startButton.layer.cornerRadius = 15
         redView.alpha = 0.3
         yellowView.alpha = 0.3
         greenView.alpha = 0.3
         
+    }
+    
+    override func viewDidLayoutSubviews() {
+        
+        redView.layer.cornerRadius = redView.frame.width / 2
+        yellowView.layer.cornerRadius = yellowView.frame.width / 2
+        greenView.layer.cornerRadius = greenView.frame.width / 2
     }
     
    private var tapCount = 1
